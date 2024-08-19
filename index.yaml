@@ -53,6 +53,6 @@ entries:
       name: cloud-agent
       type: application
       urls:
-        - https://raw.githubusercontent.com/womfoo/helmbreak/main/cloud-agent-1.39.0-36-48c591e.tgz
+        - https://raw.githubusercontent.com/womfoo/helmbreak/main/cloud-agent-1.38.0-36-48c591e.tgz
       version: 1.39.0-36-48c591e
 generated: "2024-08-19T10:28:18.153256891Z"
