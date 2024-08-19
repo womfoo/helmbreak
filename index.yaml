@@ -37,4 +37,22 @@ entries:
       urls:
         - https://raw.githubusercontent.com/womfoo/helmbreak/main/cloud-agent-1.38.0-36-48c591e.tgz
       version: 1.38.0-36+48c591e
+    - apiVersion: v2
+      appVersion: 1.39.0-36-48c591e
+      created: "2024-08-19T10:28:18.227306014Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: a39892fab90eeab4a6eade24ceaf589dc0b37feaef02ef1131383f0c85b2ea4c
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/womfoo/helmbreak/main/cloud-agent-1.39.0-36-48c591e.tgz
+      version: 1.39.0-36-48c591e
 generated: "2024-08-19T10:28:18.153256891Z"
