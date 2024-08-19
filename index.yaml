@@ -1,0 +1,159 @@
+apiVersion: v1
+entries:
+  cloud-agent:
+    - apiVersion: v2
+      appVersion: 1.38.0
+      created: "2024-08-19T10:28:18.237996485Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: 3b1bd1dd295c3361dba8e0c4ec58994ed76a12bea5484938aa77805192fd452b
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.38.0.tgz
+      version: 1.38.0
+    - apiVersion: v2
+      appVersion: 1.38.0-36+48c591e
+      created: "2024-08-19T10:28:18.227306014Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: a39892fab90eeab4a6eade24ceaf589dc0b37feaef02ef1131383f0c85b2ea4c
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.38.0-36-48c591e.tgz
+      version: 1.38.0-36-48c591e
+    - apiVersion: v2
+      appVersion: 1.37.0
+      created: "2024-08-19T10:28:18.216609244Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: e578a6c2af046ca47c138025f62602829fba7e4f5826f5d2cea31d03b0efa44f
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.37.0.tgz
+      version: 1.37.0
+    - apiVersion: v2
+      appVersion: 1.36.1
+      created: "2024-08-19T10:28:18.206038516Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: 9de584933f4bef5dd1505c04740bf4ed0ac8959f74183a96e0251e2f3a23379e
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.36.1.tgz
+      version: 1.36.1
+    - apiVersion: v2
+      appVersion: 1.36.0
+      created: "2024-08-19T10:28:18.195601427Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: d0d6de58c0ee97cec83bf56f7bb4c28db4c69ea5517df3c344a608c04a96e880
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.36.0.tgz
+      version: 1.36.0
+    - apiVersion: v2
+      appVersion: 1.35.1
+      created: "2024-08-19T10:28:18.185127657Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: 21924235a9b9cc2d7a6b3867dd6ad1acb4ffce5c03d84ccdcf054a51d232232a
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.35.1.tgz
+      version: 1.35.1
+    - apiVersion: v2
+      appVersion: 1.35.0
+      created: "2024-08-19T10:28:18.174630616Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: 4928b33e9b4d76b0de62fd19cc089f852ceb578d8e185d4f51d939ad9abe9a4c
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.35.0.tgz
+      version: 1.35.0
+    - apiVersion: v2
+      appVersion: 1.34.0
+      created: "2024-08-19T10:28:18.16419398Z"
+      dependencies:
+        - name: vault
+          repository: https://helm.releases.hashicorp.com
+          version: 0.24.1
+        - condition: keycloak.enabled
+          name: keycloak
+          repository: https://charts.bitnami.com/bitnami
+          version: 17.2.0
+      description: A Helm chart for deploying cloud-agent
+      digest: 71b7bb2f87ee85a02d0cc863474492bdcbeeae15df41e639d7ee16872804ac8c
+      name: cloud-agent
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/cloud-agent-1.34.0.tgz
+      version: 1.34.0
+  identus-mediator:
+    - apiVersion: v2
+      appVersion: 0.15.0
+      created: "2024-08-19T10:28:18.238327321Z"
+      description: A Helm chart for deploying identus-mediator
+      digest: 44e6bd78133d62d703812a02e08c12885d39559b638869af01725440543f2400
+      name: identus-mediator
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/input-output-hk/atala-prism-helm-charts/main/charts/identus-mediator-0.15.0.tgz
+      version: 0.15.0
+generated: "2024-08-19T10:28:18.153256891Z"
